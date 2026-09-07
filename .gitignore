@@ -1,0 +1,22 @@
+# .gitignore for Python/Flask project
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+.venv/
+.env
+*.sqlite3
+videos.db
+/videos/
+instance/
+.coverage
+htmlcov/
+.pytest_cache/
+
+# VSCode
+.vscode/
+
+# Mac
+.DS_Store
