@@ -1,24 +1,11 @@
 <!doctype html>
 <html lang="vi">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Video Admin</title>
-<style>
-*{box-sizing:border-box}body{margin:0;min-height:100vh;background:#09090f;color:#fff;font-family:Arial;display:grid;place-items:center}
-.card{width:min(600px,92vw);background:#151521;border:1px solid #303047;border-radius:22px;padding:28px;box-shadow:0 25px 80px #0008}
-h1{margin-top:0}input{width:100%;margin:8px 0;padding:13px;border-radius:10px;border:1px solid #38384f;background:#0c0c14;color:#fff}
-button{border:0;border-radius:10px;padding:13px 18px;background:#7657ff;color:#fff;font-weight:700;cursor:pointer;margin-top:8px}
-.msg{margin-top:18px;padding:12px;border-radius:10px;background:#202031}.url{word-break:break-all}
-small{color:#aaa}
-</style></head>
-<body><div class="card">
-<h1>Video Admin</h1>
-<small>Upload MP4/WebM/MOV/M4V/OGG và tạo link chia sẻ.</small>
-<form method="post" enctype="multipart/form-data">
-<input name="password" type="password" placeholder="Mật khẩu admin" required>
-<input name="video" type="file" accept="video/*" required>
-<button type="submit">Upload & tạo link</button>
-</form>
-{% if message %}<div class="msg">{{ message }}</div>{% endif %}
-{% if share_url %}<div class="msg"><b>Link chia sẻ:</b><div class="url">{{ share_url }}</div></div>{% endif %}
-</div></body></html>
+<meta charset="utf-8">
+<meta http-equiv="refresh" content="0; url=/admin">
+<title>Moved</title>
+</head>
+<body>
+<p>Trang này đã được di chuyển. Vui lòng truy cập <a href="/admin">/admin</a>.</p>
+</body>
+</html>
